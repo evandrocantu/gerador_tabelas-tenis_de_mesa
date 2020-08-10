@@ -14,8 +14,7 @@ No formato copa o programa aceita até 80 competidores, organizados em até 16 g
 
 UTILIZAÇÃO DO PROGRAMA
 
-Entrada dos jogadores:
-O cadastro de jogadores (ou equipes) deve ser realizado através de um arquivo de texto, um nome em cada linha. Os nomes podem ter até 20 caracteres, sem acentos ou espaços.
+Entrada dos jogadores: O cadastro de jogadores (ou equipes) deve ser realizado através de um arquivo de texto, um nome em cada linha. Os nomes podem ter até 20 caracteres, sem acentos ou espaços.
 
 Caso haja um ranking dos jogadores para orientar a formação das tabelas para eliminatórias simples ou para composição de grupos no formato copa, a ordem dos jogadores no arquivo deve seguir a ordem do ranking.
 
@@ -23,7 +22,7 @@ EXECUÇÃO DO PROGRAMA
 
 A execução do programa deve ser feira em um terminal de comandos, no caso do sistema Linux, passando como parâmetro o arquivo com os jogadores cadastrados.
 
-./GeradorTabelas Jogadores.txt
+ ./GeradorTabelas Jogadores.txt
 
 No caso so sistema Windows, deve-se clicar duas vezes no programa executável e será solicitado o nome do arquivo com os jogadores.
 
@@ -43,11 +42,13 @@ O software foi desenvolvido em linguagem C.
 
 O código fonte do programa está organizado em três arquivos, disponibilizados abaixo:
 
-GeradorTebelas.c
-Copa.c
-MataMata.c
+ GeradorTebelas.c
+
+ Copa.c
+
+ MataMata.c
 
 Para gerar o programa executável, os arquivos fonte devem ser compilados com o comando:
 
-gcc GeradorTabelas.c Copa.c MataMata.c -o GeradorTabelas
+ gcc GeradorTabelas.c Copa.c MataMata.c -o GeradorTabelas
 
