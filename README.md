@@ -3,8 +3,11 @@
 PROGRAMA GERADOR DE TABELAS ESPORTIVAS
 
 Este software permite a geração de tabelas esportivas para organizar competições em diferentes formatos, incluindo:
+
 -> Copa (fase de grupos seguido de eliminatória simples);
+
 -> Rodízio simples (todos contra todos);
+
 -> Eliminatória simples (mata mata).
 
 No formato copa o programa aceita até 80 competidores, organizados em até 16 grupos. No formato eliminatória simples o programa pode organizar confrontos com 2 a 16 jogadores ou 24 ou 32. No formato rodízio simples o programa aceita qualquer número de jogadores.
